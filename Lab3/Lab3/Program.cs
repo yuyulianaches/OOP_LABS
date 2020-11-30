@@ -80,7 +80,18 @@ namespace Lab3
             Console.WriteLine("Приводим к строке (время и номер поездов):");
             Console.WriteLine(train4.Time.ToString());
             Console.WriteLine(train7.Num.ToString());
+            
             Console.ReadKey();
+        }
+        //переопределение 
+        public override bool Equals(Object obj)
+        {
+            return base.Equals(obj);
+        }
+
+        public override int GetHashCode()
+        {
+            return base.GetHashCode();
         }
     }
     public partial class Train//частичный класс partial

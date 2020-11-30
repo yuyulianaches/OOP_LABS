@@ -5,3 +5,10 @@ C:\Users\unnamed\Documents\Универ\ООП\LABS\Lab1\Lab1\obj\Debug\Lab1.csp
 C:\Users\unnamed\Documents\Универ\ООП\LABS\Lab1\Lab1\obj\Debug\Lab1.csproj.CoreCompileInputs.cache
 C:\Users\unnamed\Documents\Универ\ООП\LABS\Lab1\Lab1\obj\Debug\Lab1.exe
 C:\Users\unnamed\Documents\Универ\ООП\LABS\Lab1\Lab1\obj\Debug\Lab1.pdb
+C:\Users\unnamed\Documents\Универ\ООП\LABS\Lab1\OOP_LABS\Lab1\bin\Debug\Lab1.exe.config
+C:\Users\unnamed\Documents\Универ\ООП\LABS\Lab1\OOP_LABS\Lab1\bin\Debug\Lab1.exe
+C:\Users\unnamed\Documents\Универ\ООП\LABS\Lab1\OOP_LABS\Lab1\bin\Debug\Lab1.pdb
+C:\Users\unnamed\Documents\Универ\ООП\LABS\Lab1\OOP_LABS\Lab1\obj\Debug\Lab1.csprojAssemblyReference.cache
+C:\Users\unnamed\Documents\Универ\ООП\LABS\Lab1\OOP_LABS\Lab1\obj\Debug\Lab1.csproj.CoreCompileInputs.cache
+C:\Users\unnamed\Documents\Универ\ООП\LABS\Lab1\OOP_LABS\Lab1\obj\Debug\Lab1.exe
+C:\Users\unnamed\Documents\Универ\ООП\LABS\Lab1\OOP_LABS\Lab1\obj\Debug\Lab1.pdb

@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace Lab5
 {
     class Program
@@ -110,8 +111,7 @@ namespace Lab5
     }
 
     // бесплодный класс, от которого невозможно наследование
-    // но он наследуется от класса мяч.
-    // и он будет наследовать интерфейс для тенниса.
+
     sealed class Carriage : Train, Istop
     {
         int numberOfCarriage;
@@ -140,7 +140,7 @@ namespace Lab5
 
     public override bool Equals(object obj)
         {
-            if (obj == null) // проверка, а есть ли вообще что-то в объекте, если все ок, то дальше...
+            if (obj == null) // проверка, а есть ли вообще что-то в объекте
             {
                 Console.WriteLine("Что-то не так");
                 return false;
@@ -149,8 +149,7 @@ namespace Lab5
             obj = obj as Carriage; //AS служит для перевода объекта к указанному типу, 
                                      // в случае невозможности
                                      //привести объект к указанному типу мы вместо исключения получим null.
-                                     // был какой-то объект, мы превратили в вагон.
-                                     // если у нас получилось, то объект не равен нулю и следовательно вагон.
+                                    
             if (obj != null)
             {
                 Console.WriteLine("Это действительно вагон поезда.");
@@ -176,96 +175,6 @@ namespace Lab5
         
 
 }
-
-public class Car : Vehicle
-{
-    public string mark;
-    public int number;
-    public Car(string mark, int number)
-    {
-        this.mark = mark;
-        this.number = number;
-    }
-    public override void Move()//переопределяем метод "движение" класса-родителя
-    {
-        Console.WriteLine("Машина движется.");
-    }
-
-    public override string ToString()
-    {
-        return base.ToString() + "Переопределение toString() выполнено.";
-    }
-    public void ShowCar(string mark, int number)
-    {
-        Console.WriteLine($"Машина {mark} с номером {number}");
-    }
-    interface IDrive
-    {
-        void Driving();
-    }
-        sealed class Dvig : Car, IDrive
-        {
-        int numberOfDvig;
-
-        public Dvig(string mark, int n) : base(mark, n)
-        {
-            this.mark = mark;
-            this.PartOfVehicle = true;
-            this.numberOfDvig = n;
-       
-        }
-
-        // использование as 
-
-        public override bool Equals(object obj)
-        {
-            if (obj == null) // проверка, а есть ли вообще что-то в объекте, если все ок, то дальше...
-            {
-                Console.WriteLine("Что-то не так");
-                return false;
-            }
-
-            obj = obj as Dvig; //AS служит для перевода объекта к указанному типу, 
-                                   // в случае невозможности
-                                   //привести объект к указанному типу мы вместо исключения получим null.
-                                   // был какой-то объект, мы превратили в вагон.
-                                   // если у нас получилось, то объект не равен нулю и следовательно вагон.
-            if (obj != null)
-            {
-                Console.WriteLine("Двигатель - часть авто.");
-                return true;
-            }
-
-            Console.WriteLine("Двигатель не подходит к контексту.");
-            return false;
-
-        }
-    public void Driving() // реализация интерфейса
-    {
-        Console.WriteLine("Транспорт остановился");
-    }
-    public override int GetHashCode()
-        {
-            return base.GetHashCode() + numberOfDvig;
-        }
-
-
-        public override string ToString()
-        {
-            return base.ToString() + " Это двигатель авто.";
-        }
-
-    }
-
-}
-
-
-
-
-
-
-
-
 
 
 
