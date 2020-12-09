@@ -1,0 +1,12 @@
+C:\Users\unnamed\Documents\Универ\ООП\LABS\Lab14\Lab14\bin\Debug\Lab14.exe.config
+C:\Users\unnamed\Documents\Универ\ООП\LABS\Lab14\Lab14\bin\Debug\Lab14.exe
+C:\Users\unnamed\Documents\Универ\ООП\LABS\Lab14\Lab14\bin\Debug\Lab14.pdb
+C:\Users\unnamed\Documents\Универ\ООП\LABS\Lab14\Lab14\obj\Debug\Lab14.csprojAssemblyReference.cache
+C:\Users\unnamed\Documents\Универ\ООП\LABS\Lab14\Lab14\obj\Debug\Lab14.csproj.CoreCompileInputs.cache
+C:\Users\unnamed\Documents\Универ\ООП\LABS\Lab14\Lab14\obj\Debug\Lab14.exe
+C:\Users\unnamed\Documents\Универ\ООП\LABS\Lab14\Lab14\obj\Debug\Lab14.pdb
+C:\Users\unnamed\Documents\Универ\ООП\LABS\Lab14\Lab14\bin\Debug\System.Memory.dll
+C:\Users\unnamed\Documents\Универ\ООП\LABS\Lab14\Lab14\obj\Debug\Lab14.csproj.CopyComplete
+C:\Users\unnamed\Documents\Универ\ООП\LABS\Lab14\Lab14\bin\Debug\System.Buffers.dll
+C:\Users\unnamed\Documents\Универ\ООП\LABS\Lab14\Lab14\bin\Debug\Newtonsoft.Json.dll
+C:\Users\unnamed\Documents\Универ\ООП\LABS\Lab14\Lab14\bin\Debug\Newtonsoft.Json.xml

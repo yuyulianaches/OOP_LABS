@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<animals>
+  <animals name="Sam">
+    <color>black</color>
+    <age>5</age>
+  </animals>
+  <animals name="Rocky">
+    <color>gray</color>
+    <age>17</age>
+  </animals>
+</animals>

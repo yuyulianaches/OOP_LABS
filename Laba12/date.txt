@@ -1,0 +1,79 @@
+____________Общие сведения__________: 
+FullName:   [Laba12.Train]
+Name:   [Train]
+BaseType:   [Laba12.Vehicle]
+IsSealed:  [False]
+IsInterface:   [False]
+IsClass:   [True]
+IsAbstract:    [False]
+IsEnum:    [False]
+IsArray:   [False]
+Методы:
+    [Void Move()]
+    [Void TrainsCarriage()]
+    [System.String ToString()]
+    [Void ShowTrain(Int32, System.String)]
+    [Void Numb(Int32)]
+    [Void ToConsole(System.String)]
+    [Single GetCurrentSpeed()]
+    [Boolean Equals(System.Object)]
+    [Int32 GetHashCode()]
+    [System.Type GetType()]
+Свойства:
+Конструкторы:
+   [Void .ctor(System.String, Int32)]
+Поля:
+   [System.String color]
+   [Int32 n]
+Интерфейсы:
+____________Общие сведения__________: 
+FullName:   [Laba12.Vehicle]
+Name:   [Vehicle]
+BaseType:   [System.Object]
+IsSealed:  [False]
+IsInterface:   [False]
+IsClass:   [True]
+IsAbstract:    [False]
+IsEnum:    [False]
+IsArray:   [True]
+Методы:
+    [Void Move()]
+    [Single GetCurrentSpeed()]
+    [System.String ToString()]
+    [Boolean Equals(System.Object)]
+    [Int32 GetHashCode()]
+    [System.Type GetType()]
+Свойства:
+Конструкторы:
+Поля:
+Интерфейсы:
+____________Общие сведения__________: 
+FullName:   [Laba12.Carriage]
+Name:   [Carriage]
+BaseType:   [Laba12.Train]
+IsSealed:  [True]
+IsInterface:   [False]
+IsClass:   [True]
+IsAbstract:    [False]
+IsEnum:    [False]
+IsArray:   [False]
+Методы:
+    [Void TrainsCarriage()]
+    [Void Stopping()]
+    [Void Move()]
+    [System.String ToString()]
+    [Void ShowTrain(Int32, System.String)]
+    [Void Numb(Int32)]
+    [Void ToConsole(System.String)]
+    [Single GetCurrentSpeed()]
+    [Boolean Equals(System.Object)]
+    [Int32 GetHashCode()]
+    [System.Type GetType()]
+Свойства:
+Конструкторы:
+   [Void .ctor(System.String, Int32)]
+Поля:
+   [System.String color]
+   [Int32 n]
+Интерфейсы:
+   [Laba12.Istop]

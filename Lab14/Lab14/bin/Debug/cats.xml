@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cats>
+  <cats name="Sam">
+    <color>black</color>
+    <age>5</age>
+  </cats>
+  <cats name="Charls">
+    <color>gray</color>
+    <age>1</age>
+  </cats>
+  <cats name="Mars">
+    <color>white</color>
+    <age>4</age>
+  </cats>
+</cats>

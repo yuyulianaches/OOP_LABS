@@ -1,0 +1,34 @@
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<SOAP-ENC:Array SOAP-ENC:arrayType="a1:Carriage[4]" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Lab14/Lab14%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<item href="#ref-3"/>
+<item href="#ref-4"/>
+<item href="#ref-5"/>
+<item href="#ref-6"/>
+</SOAP-ENC:Array>
+<a1:Carriage id="ref-3" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Lab14/Lab14%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<numberOfCarriage>322</numberOfCarriage>
+<name id="ref-7">Vagon_2</name>
+<color id="ref-8">yellow</color>
+<number>322</number>
+</a1:Carriage>
+<a1:Carriage id="ref-4" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Lab14/Lab14%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<numberOfCarriage>634</numberOfCarriage>
+<name id="ref-9">Vagon_3</name>
+<color id="ref-10">green</color>
+<number>634</number>
+</a1:Carriage>
+<a1:Carriage id="ref-5" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Lab14/Lab14%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<numberOfCarriage>413</numberOfCarriage>
+<name id="ref-11">Vagon_4</name>
+<color id="ref-12">black</color>
+<number>413</number>
+</a1:Carriage>
+<a1:Carriage id="ref-6" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Lab14/Lab14%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<numberOfCarriage>764</numberOfCarriage>
+<name id="ref-13">Vagon_5</name>
+<color id="ref-14">blue</color>
+<number>764</number>
+</a1:Carriage>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

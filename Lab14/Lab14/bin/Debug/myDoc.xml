@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<students xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <student name="Арбузова">
+    <city>Гродно</city>
+    <age>19</age>
+    <university>ГРГУ</university>
+  </student>
+  <student name="Поляков">
+    <city>Минск</city>
+    <age>20</age>
+    <university>БГУ</university>
+  </student>
+  <student name="Соколов">
+    <city>Минск</city>
+    <age>18</age>
+    <university>МГЛУ</university>
+  </student>
+  <student name="Трофимова">
+    <city>Брест</city>
+    <age>20</age>
+    <university>БПГУ</university>
+  </student>
+</students>
